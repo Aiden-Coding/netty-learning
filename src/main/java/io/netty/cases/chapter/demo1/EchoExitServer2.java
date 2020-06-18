@@ -42,8 +42,8 @@ public class EchoExitServer2 {
                 }
             });
         } finally {
-//            bossGroup.shutdownGracefully();
-//            workerGroup.shutdownGracefully();
+            bossGroup.shutdownGracefully();
+            workerGroup.shutdownGracefully();
         }
     }
 }
