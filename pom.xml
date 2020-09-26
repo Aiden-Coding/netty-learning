@@ -14,6 +14,8 @@
     </properties>
     <modules>
       <module>case-analysis</module>
+      <module>io-tomcat</module>
+      <module>netty-tomcat</module>
     </modules>
     <dependencies>
         <dependency>
