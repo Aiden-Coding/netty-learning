@@ -8,8 +8,19 @@
     <version>1.0.1</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
-
-  <artifactId>case-analysis</artifactId>
-
+  <packaging>pom</packaging>
+  <modules>
+    <module>server</module>
+    <module>api</module>
+    <module>client</module>
+  </modules>
+  <artifactId>netty-rpc</artifactId>
+  <dependencies>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.12</version>
+    </dependency>
+  </dependencies>
 
 </project>
