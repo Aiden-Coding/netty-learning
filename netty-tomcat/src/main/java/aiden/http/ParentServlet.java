@@ -1,6 +1,5 @@
 package aiden.http;
 
-
 import aiden.enums.RequestMethodEnum;
 
 /**
