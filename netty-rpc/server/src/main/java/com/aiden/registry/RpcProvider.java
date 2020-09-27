@@ -19,9 +19,9 @@ import io.netty.handler.codec.serialization.ObjectEncoder;
  * Date: 2020-09-27
  * Time: 13:44
  */
-public class RpcRegistry {
+public class RpcProvider {
   private int port;
-  public RpcRegistry(int port) {
+  public RpcProvider(int port) {
     this.port = port;
   }
   public void start(){

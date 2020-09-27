@@ -1,6 +1,6 @@
 package com.aiden;
 
-import com.aiden.registry.RpcRegistry;
+import com.aiden.registry.RpcProvider;
 
 /**
  * Created with IntelliJ IDEA.
@@ -11,6 +11,6 @@ import com.aiden.registry.RpcRegistry;
  */
 public class RpcRemoteStart {
   public static void main(String[] args) {
-    new RpcRegistry(8080).start();
+    new RpcProvider(8080).start();
   }
 }
