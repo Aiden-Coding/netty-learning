@@ -72,7 +72,6 @@ public class ChatServer {
     start(this.port);
   }
 
-
   public static void main(String[] args) throws IOException {
     if (args.length > 0) {
       new ChatServer().start(Integer.valueOf(args[0]));
