@@ -19,6 +19,7 @@
       <module>netty-rpc</module>
       <module>netty-customer-message</module>
       <module>netty-million</module>
+      <module>netty-io</module>
     </modules>
     <dependencies>
         <dependency>
